@@ -1,0 +1,199 @@
+<style>
+/*--------------------------------------------------------------
+# Sponsors
+--------------------------------------------------------------*/
+.sponsors {
+  padding-bottom: 40px;
+}
+
+.sponsors .row {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping into multiple rows */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sponsors .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 calc(25% - 20px); /* 4 per row on large screens */
+  max-width: calc(25% - 20px);
+}
+
+/* Fixed logo dimensions */
+.sponsors .col img {
+  width: 200px;
+  /* height: 180px; */
+  object-fit: contain;   /* Prevent stretching/cropping */
+  opacity: 0.8;
+  transition: 0.3s;
+  /* border-radius: 8px; */
+}
+
+.sponsors .col img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .sponsors .col {
+    flex: 0 1 calc(50% - 20px); /* 2 per row */
+    max-width: calc(50% - 20px);
+  }
+
+  .sponsors .col img {
+    height: 150px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .sponsors .col {
+    flex: 0 1 100%; /* 1 per row */
+    max-width: 100%;
+  }
+}
+
+.sponsors .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.sponsors .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #ddd;
+  opacity: 1;
+}
+</style>
+
+<h3 style="font-size: 14pt;" align="center"><strong>Gold-level</strong></h3>
+<div class="sponsors">
+  <div class="row">
+
+    <div class="col">
+      <a target="_blank" href="https://www.gehealthcare.co.uk/" title="GE">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-ge.png"
+             alt="GE"
+             style="width: 150px; height: auto;">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.siemens.com/en-us/ecosystem/siemens-healthineers/" title="Siemens">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-siemens-healthineers.jpg"
+             alt="Siemens">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.philips.co.uk/" title="Philips">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-philips.jpg"
+             alt="Philips">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.nvision-quantum.com/" title="NVision Imaging Technologies">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-nvision-imaging.png"
+             alt="NVision Imaging Technologies">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://skope.swiss/" title="Skope">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-skope.png"
+             alt="Skope">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.frontiersin.org/journals/neuroscience" title="Frontiers in Neuroscience">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-frontiers-neuroscience.png"
+             alt="Frontiers in Neuroscience">
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<h3 style="font-size: 14pt;" align="center"><strong>Silver-level</strong></h3>
+<div class="sponsors">
+  <div class="row">
+
+    <div class="col">
+      <a target="_blank" href="https://www.mrsolutions.com/" title="MR Solutions">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-mr-solutions.png"
+             alt="MR Solutions">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.mediso.uk/" title="Mediso">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-mediso.png"
+             alt="Mediso">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://xiel.co.uk/" title="Xiel">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-xiel.jpg"
+             alt="Xiel"
+             style="width: 150px; height: auto;">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.neoscan-solutions.com/" title="Neoscan Solutions">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-neoscan.jpg"
+             alt="Neoscan Solutions">
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<h3 style="font-size: 14pt;" align="center"><strong>Bronze-level</strong></h3>
+<div class="sponsors">
+  <div class="row">
+
+    <div class="col">
+      <a target="_blank" href="http://www.tesla.co.uk/" title="Tesla Engineering Ltd">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-tesla.png"
+             alt="Tesla Engineering Ltd">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.rapidbiomed.de/" title="Rapid Biomedical">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-rapid-biomedical.png"
+             alt="Rapid Biomedical">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.bruker.com/" title="Bruker">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-bruker.jpg"
+             alt="Bruker">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://perspectum.com/" title="Perspectum">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-perspectum.png"
+             alt="Perspectum">
+      </a>
+    </div>
+
+    <div class="col">
+      <a target="_blank" href="https://www.goldstandardphantoms.com/" title="Gold Standard Phantoms">
+        <img src="https://bic.ismrm.org/wp-content/uploads/2026/05/logo-gold-standard-phantoms.png"
+             alt="Gold Standard Phantoms">
+      </a>
+    </div>
+
+  </div>
+</div>
